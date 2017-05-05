@@ -842,6 +842,7 @@ ArrayList<renklist> rl = new ArrayList<>();
             SimpleAttributeSet attributes = new SimpleAttributeSet();
         if(jCheckBox1.isSelected() == true)
         {
+            int aq = 5;
             attributes.addAttribute(StyleConstants.CharacterConstants.Italic, Boolean.TRUE);
         }
         if(jCheckBox2.isSelected() == true)
